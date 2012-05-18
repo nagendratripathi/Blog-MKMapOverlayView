@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C451F8E15667EB2004416CF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C451F8D15667EB2004416CF /* UIKit.framework */; };
+		1C451F9015667EB2004416CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C451F8F15667EB2004416CF /* Foundation.framework */; };
+		1C451F9215667EB2004416CF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C451F9115667EB2004416CF /* CoreGraphics.framework */; };
+		1C451F9815667EB2004416CF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1C451F9615667EB2004416CF /* InfoPlist.strings */; };
+		1C451F9A15667EB2004416CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C451F9915667EB2004416CF /* main.m */; };
+		1C451F9E15667EB2004416CF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C451F9D15667EB2004416CF /* AppDelegate.m */; };
+		1C451FA115667EB2004416CF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C451FA015667EB2004416CF /* ViewController.m */; };
+		1C451FA415667EB2004416CF /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C451FA215667EB2004416CF /* ViewController.xib */; };
+		1C451FC11566A135004416CF /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C451FC01566A135004416CF /* MapKit.framework */; };
+		1C451FC31566A13C004416CF /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C451FC21566A13C004416CF /* CoreLocation.framework */; };
+		1C451FC41566A537004416CF /* MapOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C451FBD1566A10D004416CF /* MapOverlayView.m */; };
+		1C451FC51566A537004416CF /* MapOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C451FBF1566A10D004416CF /* MapOverlay.m */; };
+		1C451FD315670712004416CF /* indigo_eiffel_blog.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C451FD215670712004416CF /* indigo_eiffel_blog.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1C451F8915667EB2004416CF /* MapOverlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapOverlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C451F8D15667EB2004416CF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1C451F8F15667EB2004416CF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1C451F9115667EB2004416CF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1C451F9515667EB2004416CF /* MapOverlay-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MapOverlay-Info.plist"; sourceTree = "<group>"; };
+		1C451F9715667EB2004416CF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1C451F9915667EB2004416CF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1C451F9B15667EB2004416CF /* MapOverlay-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MapOverlay-Prefix.pch"; sourceTree = "<group>"; };
+		1C451F9C15667EB2004416CF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1C451F9D15667EB2004416CF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1C451F9F15667EB2004416CF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1C451FA015667EB2004416CF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1C451FA315667EB2004416CF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		1C451FBC1566A10D004416CF /* MapOverlayView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapOverlayView.h; sourceTree = "<group>"; };
+		1C451FBD1566A10D004416CF /* MapOverlayView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapOverlayView.m; sourceTree = "<group>"; };
+		1C451FBE1566A10D004416CF /* MapOverlay.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapOverlay.h; sourceTree = "<group>"; };
+		1C451FBF1566A10D004416CF /* MapOverlay.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapOverlay.m; sourceTree = "<group>"; };
+		1C451FC01566A135004416CF /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		1C451FC21566A13C004416CF /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		1C451FD215670712004416CF /* indigo_eiffel_blog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = indigo_eiffel_blog.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1C451F8615667EB2004416CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C451FC31566A13C004416CF /* CoreLocation.framework in Frameworks */,
+				1C451FC11566A135004416CF /* MapKit.framework in Frameworks */,
+				1C451F8E15667EB2004416CF /* UIKit.framework in Frameworks */,
+				1C451F9015667EB2004416CF /* Foundation.framework in Frameworks */,
+				1C451F9215667EB2004416CF /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C451F7E15667EB2004416CF = {
+			isa = PBXGroup;
+			children = (
+				1C451F9315667EB2004416CF /* MapOverlay */,
+				1C451F8C15667EB2004416CF /* Frameworks */,
+				1C451F8A15667EB2004416CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1C451F8A15667EB2004416CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1C451F8915667EB2004416CF /* MapOverlay.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1C451F8C15667EB2004416CF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1C451FC21566A13C004416CF /* CoreLocation.framework */,
+				1C451FC01566A135004416CF /* MapKit.framework */,
+				1C451F8D15667EB2004416CF /* UIKit.framework */,
+				1C451F8F15667EB2004416CF /* Foundation.framework */,
+				1C451F9115667EB2004416CF /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1C451F9315667EB2004416CF /* MapOverlay */ = {
+			isa = PBXGroup;
+			children = (
+				1C451FBC1566A10D004416CF /* MapOverlayView.h */,
+				1C451FBD1566A10D004416CF /* MapOverlayView.m */,
+				1C451FBE1566A10D004416CF /* MapOverlay.h */,
+				1C451FBF1566A10D004416CF /* MapOverlay.m */,
+				1C451F9C15667EB2004416CF /* AppDelegate.h */,
+				1C451F9D15667EB2004416CF /* AppDelegate.m */,
+				1C451F9F15667EB2004416CF /* ViewController.h */,
+				1C451FA015667EB2004416CF /* ViewController.m */,
+				1C451FA215667EB2004416CF /* ViewController.xib */,
+				1C451FD215670712004416CF /* indigo_eiffel_blog.png */,
+				1C451F9415667EB2004416CF /* Supporting Files */,
+			);
+			path = MapOverlay;
+			sourceTree = "<group>";
+		};
+		1C451F9415667EB2004416CF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1C451F9515667EB2004416CF /* MapOverlay-Info.plist */,
+				1C451F9615667EB2004416CF /* InfoPlist.strings */,
+				1C451F9915667EB2004416CF /* main.m */,
+				1C451F9B15667EB2004416CF /* MapOverlay-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1C451F8815667EB2004416CF /* MapOverlay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C451FA715667EB2004416CF /* Build configuration list for PBXNativeTarget "MapOverlay" */;
+			buildPhases = (
+				1C451F8515667EB2004416CF /* Sources */,
+				1C451F8615667EB2004416CF /* Frameworks */,
+				1C451F8715667EB2004416CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MapOverlay;
+			productName = MapOverlay;
+			productReference = 1C451F8915667EB2004416CF /* MapOverlay.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1C451F8015667EB2004416CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 1C451F8315667EB2004416CF /* Build configuration list for PBXProject "MapOverlay" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1C451F7E15667EB2004416CF;
+			productRefGroup = 1C451F8A15667EB2004416CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1C451F8815667EB2004416CF /* MapOverlay */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1C451F8715667EB2004416CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C451F9815667EB2004416CF /* InfoPlist.strings in Resources */,
+				1C451FA415667EB2004416CF /* ViewController.xib in Resources */,
+				1C451FD315670712004416CF /* indigo_eiffel_blog.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C451F8515667EB2004416CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C451FC41566A537004416CF /* MapOverlayView.m in Sources */,
+				1C451FC51566A537004416CF /* MapOverlay.m in Sources */,
+				1C451F9A15667EB2004416CF /* main.m in Sources */,
+				1C451F9E15667EB2004416CF /* AppDelegate.m in Sources */,
+				1C451FA115667EB2004416CF /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1C451F9615667EB2004416CF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C451F9715667EB2004416CF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1C451FA215667EB2004416CF /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C451FA315667EB2004416CF /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1C451FA515667EB2004416CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1C451FA615667EB2004416CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1C451FA815667EB2004416CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MapOverlay/MapOverlay-Prefix.pch";
+				INFOPLIST_FILE = "MapOverlay/MapOverlay-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1C451FA915667EB2004416CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MapOverlay/MapOverlay-Prefix.pch";
+				INFOPLIST_FILE = "MapOverlay/MapOverlay-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C451F8315667EB2004416CF /* Build configuration list for PBXProject "MapOverlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C451FA515667EB2004416CF /* Debug */,
+				1C451FA615667EB2004416CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C451FA715667EB2004416CF /* Build configuration list for PBXNativeTarget "MapOverlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C451FA815667EB2004416CF /* Debug */,
+				1C451FA915667EB2004416CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1C451F8015667EB2004416CF /* Project object */;
+}
